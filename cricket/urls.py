@@ -5,6 +5,7 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'cricket', views.CricketViewSet, basename='cricket')
+router.register(r'terrarium', views.TerrariumViewset, basename='terrarium')
 
 urlpatterns = []
 urlpatterns += router.urls
