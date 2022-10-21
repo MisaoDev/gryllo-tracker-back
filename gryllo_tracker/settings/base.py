@@ -136,6 +136,5 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'Track your crickets\' life crycle',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
-    'SCHEMA_PATH_PREFIX': r'/api/',
     # OTHER SETTINGS
 }
